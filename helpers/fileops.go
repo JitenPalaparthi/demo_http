@@ -3,9 +3,10 @@ package helpers
 import (
 	"encoding/json"
 	"errors"
-	"http-demo/models"
 	"log/slog"
 	"os"
+
+	"github.com/JitenPalaparthi/demo_http/models"
 )
 
 var ChanUser chan *models.User

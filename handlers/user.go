@@ -1,12 +1,13 @@
 package handlers
 
 import (
-	"http-demo/helpers"
-	"http-demo/models"
 	"log/slog"
 	"math/rand/v2"
 	"net/http"
 	"time"
+
+	"github.com/JitenPalaparthi/demo_http/helpers"
+	"github.com/JitenPalaparthi/demo_http/models"
 
 	"github.com/gin-gonic/gin"
 )
